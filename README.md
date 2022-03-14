@@ -4,7 +4,7 @@ This is a deep learning project that I have completed independently.
 I hope to show some examples of the project for students who also want to have learning ideas about machine learning but have no way to start.  
 
 #Chinese：
-=
+==
 这是我肚子完成的一个基于Pytorch的深度学习项目，旨在对敏感图片（色情、血腥）进行一个粗分类。  
 如果你还没有过项目实战经验，可以浏览我的许多代码进行学习，很简单，并没有很复杂的特征识别，就是单纯的学习  
 惊讶的是，我所使用的ResNet竟然真的将我所使用的数据集内的识别正确率提高到了大于80%  
@@ -24,7 +24,7 @@ lr:就是训练步长，早期大，后期小，不在赘述，我的lr参数大
 weight_decay:正则化参数，由于网络中的乘算过多，为了防止参数在多层运算过程中变得过大或过小（梯度爆炸和梯度消失）而设置，这在实践中也十分明显，如不加以控制，基本连一次训练都完成不了  
 最后，优化器选择的是公认的Adam算法，双参数调控可以更加精准。  
 #最最后，你在实践过程中可能会碰到的烦人的小问题：
-=
+==
 '''
 我甚至觉得我遇到的问题会是些常见问题  
 1  
