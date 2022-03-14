@@ -8,5 +8,9 @@ I hope to show some examples of the project for students who also want to have l
 这是我肚子完成的一个基于Pytorch的深度学习项目，旨在对敏感图片（色情、血腥）进行一个粗分类。  
 如果你还没有过项目实战经验，可以浏览我的许多代码进行学习，很简单，并没有很复杂的特征识别，就是单纯的学习  
 惊讶的是，我所使用的ResNet竟然真的将我所使用的数据集内的识别正确率提高到了大于80%  
-#接下来讲一下main里相关函数作用：
-=  
+#接下来讲一下main里相关函数作用：  
+=
+ToTensor与Resize是重写函数，因为对dataset类的分类处理不好，所以重新定义了一下  
+ReSize是将图片裁剪为与神经网络接口大小相同的图片  
+ToTensor是torch里将图片的数据张量化为可供net训练的数据模型  
+
